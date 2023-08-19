@@ -1,0 +1,79 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.flexible{
+    display: flex;
+    margin-bottom: 150px;
+}
+.upper-section {
+    background: url(../images/top-banner.png) no-repeat;
+}
+.half-width {
+    width: 50%;
+}
+.half-width img {
+    width: 60%;
+    /* float: right; */
+    margin-left: 30%;
+}
+h1{
+    font-size: 50px;
+}
+h2 {
+    font-size: 40px;
+}
+.link-btn {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    background-image: linear-gradient(#FF9672, #FF6A4D);
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.peter-parker,
+.last-section h3{
+    color: orange;
+}
+
+.middle-section {
+    background: url(../images/dream-bg.png) no-repeat;
+    background-position: right;
+}
+.last-section {
+    background: url(../images/exp-bg.png) no-repeat;
+    background-position: left;
+}
+.last-section .half-width h2 {
+    font-size: 30px;
+}
+.skill {
+    width: 40%;
+    margin: 0 5%;
+    box-shadow: 10px 10px 30px gray;
+    padding: 10px 40px;
+    border-radius: 6px;
+}
+.baby-developer {
+    border-left: 8px solid;
+    border-image: linear-gradient(hotpink, tomato);
+    border-image-slice: 1;
+}
+.full-stack-developer {
+    border-left: 8px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    color: gray;
+    text-align: center;
+    padding: 80px 0;
+}
